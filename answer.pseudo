@@ -1,0 +1,40 @@
+package com.anil;
+import java.io.*;
+import java.util.Scanner;
+public class RandomNumbers 
+{
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		String a[]={"Ram","Sam","Joey","Chandler","Ross","Pheoby","Rachel","Monica","Kiran","ramesh"};
+		System.out.println("please enter a number");
+        int n=sc.nextInt();
+		if(n>=6&&n<=15)
+		{
+		if(n==6)
+		{System.out.println(a[0]+n);}
+		else if(n==7)
+		{System.out.println(a[1]+n);}
+		else if(n==8)
+		{System.out.println(a[2]+n);}
+		else if(n==9)
+		{System.out.println(a[3]+n);}
+		else if(n==10)
+		{System.out.println(a[4]+n);}
+		else if(n==11)
+		{System.out.println(a[5]+n);}
+		else if(n==12)
+		{System.out.println(a[6]+n);}
+		else if(n==13)
+		{System.out.println(a[7] +n);}
+		else if(n==14)
+		{System.out.println(a[8]+n);}
+		else if(n==15)
+		{System.out.println(a[9]+n);}
+		}
+		else {System.out.println("please enter number between 6 to 15");}
+	}
+}
+		
